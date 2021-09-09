@@ -1,0 +1,15 @@
+1. Count - Set a state value to count the number of paragraphs you want to call
+2. Text - A state value to manpulate the texts in data.js
+3. handleSubmit - To handle the sumbit event (e) everytime certain number of paragraphs are called
+4. As a return make a heading, make a label called "paragraph".
+5. Make a <form/> and isnide it pass an <input/> whcich will handle the "onChange" and pass (e) in it
+        
+         <input type="number" name='amount' id='amount' vslue = {count}
+            onChange = {(e) => setCount(e.target.value)}
+            />
+            <button type='submit' className='btn'>Generate</button>
+
+6. eventually we will change the value for the array "text" when we invoke the function "handleSubmit"
+7. As we generate that text, we will cahnge the useState(), and add some paragraphs to the "text" array
+8. We will call the arrat from data.js as "text", and pass it in "handleSubmit"
+9.
